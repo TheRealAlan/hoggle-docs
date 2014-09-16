@@ -7,6 +7,7 @@ gem "middleman", "~>3.3.5"
 gem "middleman-livereload", "~> 3.1.0"
 gem "middleman-syntax"
 gem "middleman-autoprefixer"
+gem "middleman-gh-pages"
 gem "redcarpet"
 
 # Get Hoggle
