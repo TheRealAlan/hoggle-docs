@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/TheRealAlan/hoggle.git
-  revision: bc0951917356ecc0e8ca41b92def9f28511738f4
+  revision: 9a95b9cebde50a3656df2d78d8cff0b0c31f4805
   specs:
     hoggle (0.0.1)
 
