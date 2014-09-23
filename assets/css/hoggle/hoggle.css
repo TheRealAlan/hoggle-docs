@@ -23,7 +23,9 @@ clearfix is attached to the .clearfix class
 swap mixin is attached to the .swap class
 */
 /*
-Generate grid classes, as well as hide / show classes off of $sizes array. Since some elements may beed to be shown with block and others with inline-block, the hide / show classes may need to be split into to versions for flexibility.
+Generate grid classes, as well as hide / show classes off of $sizes array. 
+Since some elements may beed to be shown with block and others with inline-block, 
+the hide / show classes may need to be split into to versions for flexibility.
 
 2 column mobile example:
 
@@ -44,446 +46,446 @@ Build the grid classes
 /* Create grid classes */
 @media screen and (min-width: 0px) {
   /* Columns */
-  /* line 55, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 57, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-1of1 {
     width: 100% !important; }
 
-  /* line 59, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 61, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-1of2 {
     width: 50% !important; }
 
-  /* line 63, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 65, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-1of3 {
     width: 33.33333% !important; }
 
-  /* line 67, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 69, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-2of3 {
     width: 66.66667% !important; }
 
-  /* line 71, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 73, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-1of4 {
     width: 25% !important; }
 
-  /* line 75, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 77, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-3of4 {
     width: 75% !important; }
 
-  /* line 79, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 81, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-1of8 {
     width: 12.5% !important; }
 
-  /* line 83, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 85, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-3of8 {
     width: 37.5% !important; }
 
-  /* line 87, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 89, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-5of8 {
     width: 62.5% !important; }
 
-  /* line 91, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 93, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-7of8 {
     width: 87.5% !important; }
 
   /* Offsets */
-  /* line 97, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 99, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-offset-1of2 {
     margin-left: 50%; }
 
-  /* line 101, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 103, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-offset-1of3 {
     margin-left: 33.33333%; }
 
-  /* line 105, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 107, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-offset-2of3 {
     margin-left: 66.66667%; }
 
-  /* line 109, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 111, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-offset-1of4 {
     margin-left: 25%; }
 
-  /* line 113, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 115, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-offset-3of4 {
     margin-left: 75%; }
 
-  /* line 117, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 119, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-offset-1of8 {
     margin-left: 12.5%; }
 
-  /* line 121, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 123, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-offset-3of8 {
     margin-left: 37.5%; }
 
-  /* line 125, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 127, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-offset-5of8 {
     margin-left: 62.5%; }
 
-  /* line 129, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 131, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-small-offset-7of8 {
     margin-left: 87.5%; } }
 /* Create hide / show classes */
 /* for the smallest */
 @media screen and (max-width: 479px) {
-  /* line 142, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 144, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .show-x-small {
     display: block !important; }
 
-  /* line 146, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 148, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .hide-x-small {
     display: none !important; } }
 /* Create grid classes */
 @media screen and (min-width: 480px) {
   /* Columns */
-  /* line 55, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 57, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-1of1 {
     width: 100% !important; }
 
-  /* line 59, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 61, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-1of2 {
     width: 50% !important; }
 
-  /* line 63, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 65, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-1of3 {
     width: 33.33333% !important; }
 
-  /* line 67, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 69, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-2of3 {
     width: 66.66667% !important; }
 
-  /* line 71, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 73, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-1of4 {
     width: 25% !important; }
 
-  /* line 75, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 77, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-3of4 {
     width: 75% !important; }
 
-  /* line 79, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 81, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-1of8 {
     width: 12.5% !important; }
 
-  /* line 83, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 85, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-3of8 {
     width: 37.5% !important; }
 
-  /* line 87, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 89, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-5of8 {
     width: 62.5% !important; }
 
-  /* line 91, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 93, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-7of8 {
     width: 87.5% !important; }
 
   /* Offsets */
-  /* line 97, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 99, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-offset-1of2 {
     margin-left: 50%; }
 
-  /* line 101, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 103, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-offset-1of3 {
     margin-left: 33.33333%; }
 
-  /* line 105, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 107, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-offset-2of3 {
     margin-left: 66.66667%; }
 
-  /* line 109, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 111, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-offset-1of4 {
     margin-left: 25%; }
 
-  /* line 113, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 115, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-offset-3of4 {
     margin-left: 75%; }
 
-  /* line 117, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 119, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-offset-1of8 {
     margin-left: 12.5%; }
 
-  /* line 121, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 123, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-offset-3of8 {
     margin-left: 37.5%; }
 
-  /* line 125, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 127, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-offset-5of8 {
     margin-left: 62.5%; }
 
-  /* line 129, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 131, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .small-offset-7of8 {
     margin-left: 87.5%; } }
 /* Create hide / show classes */
 /* for the smallest */
 @media screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 158, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 160, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .show-small {
     display: block !important; }
 
-  /* line 162, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 164, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .hide-small {
     display: none !important; } }
 /* Create grid classes */
 @media screen and (min-width: 768px) {
   /* Columns */
-  /* line 55, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 57, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-1of1 {
     width: 100% !important; }
 
-  /* line 59, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 61, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-1of2 {
     width: 50% !important; }
 
-  /* line 63, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 65, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-1of3 {
     width: 33.33333% !important; }
 
-  /* line 67, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 69, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-2of3 {
     width: 66.66667% !important; }
 
-  /* line 71, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 73, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-1of4 {
     width: 25% !important; }
 
-  /* line 75, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 77, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-3of4 {
     width: 75% !important; }
 
-  /* line 79, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 81, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-1of8 {
     width: 12.5% !important; }
 
-  /* line 83, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 85, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-3of8 {
     width: 37.5% !important; }
 
-  /* line 87, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 89, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-5of8 {
     width: 62.5% !important; }
 
-  /* line 91, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 93, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-7of8 {
     width: 87.5% !important; }
 
   /* Offsets */
-  /* line 97, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 99, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-offset-1of2 {
     margin-left: 50%; }
 
-  /* line 101, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 103, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-offset-1of3 {
     margin-left: 33.33333%; }
 
-  /* line 105, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 107, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-offset-2of3 {
     margin-left: 66.66667%; }
 
-  /* line 109, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 111, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-offset-1of4 {
     margin-left: 25%; }
 
-  /* line 113, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 115, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-offset-3of4 {
     margin-left: 75%; }
 
-  /* line 117, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 119, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-offset-1of8 {
     margin-left: 12.5%; }
 
-  /* line 121, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 123, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-offset-3of8 {
     margin-left: 37.5%; }
 
-  /* line 125, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 127, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-offset-5of8 {
     margin-left: 62.5%; }
 
-  /* line 129, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 131, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .medium-offset-7of8 {
     margin-left: 87.5%; } }
 /* Create hide / show classes */
 /* for the smallest */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 158, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 160, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .show-medium {
     display: block !important; }
 
-  /* line 162, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 164, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .hide-medium {
     display: none !important; } }
 /* Create grid classes */
 @media screen and (min-width: 992px) {
   /* Columns */
-  /* line 55, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 57, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-1of1 {
     width: 100% !important; }
 
-  /* line 59, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 61, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-1of2 {
     width: 50% !important; }
 
-  /* line 63, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 65, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-1of3 {
     width: 33.33333% !important; }
 
-  /* line 67, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 69, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-2of3 {
     width: 66.66667% !important; }
 
-  /* line 71, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 73, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-1of4 {
     width: 25% !important; }
 
-  /* line 75, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 77, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-3of4 {
     width: 75% !important; }
 
-  /* line 79, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 81, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-1of8 {
     width: 12.5% !important; }
 
-  /* line 83, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 85, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-3of8 {
     width: 37.5% !important; }
 
-  /* line 87, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 89, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-5of8 {
     width: 62.5% !important; }
 
-  /* line 91, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 93, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-7of8 {
     width: 87.5% !important; }
 
   /* Offsets */
-  /* line 97, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 99, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-offset-1of2 {
     margin-left: 50%; }
 
-  /* line 101, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 103, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-offset-1of3 {
     margin-left: 33.33333%; }
 
-  /* line 105, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 107, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-offset-2of3 {
     margin-left: 66.66667%; }
 
-  /* line 109, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 111, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-offset-1of4 {
     margin-left: 25%; }
 
-  /* line 113, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 115, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-offset-3of4 {
     margin-left: 75%; }
 
-  /* line 117, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 119, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-offset-1of8 {
     margin-left: 12.5%; }
 
-  /* line 121, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 123, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-offset-3of8 {
     margin-left: 37.5%; }
 
-  /* line 125, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 127, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-offset-5of8 {
     margin-left: 62.5%; }
 
-  /* line 129, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 131, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .large-offset-7of8 {
     margin-left: 87.5%; } }
 /* Create hide / show classes */
 /* for the smallest */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  /* line 158, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 160, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .show-large {
     display: block !important; }
 
-  /* line 162, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 164, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .hide-large {
     display: none !important; } }
 /* Create grid classes */
 @media screen and (min-width: 1200px) {
   /* Columns */
-  /* line 55, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 57, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-1of1 {
     width: 100% !important; }
 
-  /* line 59, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 61, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-1of2 {
     width: 50% !important; }
 
-  /* line 63, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 65, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-1of3 {
     width: 33.33333% !important; }
 
-  /* line 67, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 69, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-2of3 {
     width: 66.66667% !important; }
 
-  /* line 71, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 73, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-1of4 {
     width: 25% !important; }
 
-  /* line 75, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 77, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-3of4 {
     width: 75% !important; }
 
-  /* line 79, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 81, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-1of8 {
     width: 12.5% !important; }
 
-  /* line 83, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 85, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-3of8 {
     width: 37.5% !important; }
 
-  /* line 87, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 89, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-5of8 {
     width: 62.5% !important; }
 
-  /* line 91, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 93, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-7of8 {
     width: 87.5% !important; }
 
   /* Offsets */
-  /* line 97, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 99, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-offset-1of2 {
     margin-left: 50%; }
 
-  /* line 101, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 103, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-offset-1of3 {
     margin-left: 33.33333%; }
 
-  /* line 105, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 107, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-offset-2of3 {
     margin-left: 66.66667%; }
 
-  /* line 109, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 111, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-offset-1of4 {
     margin-left: 25%; }
 
-  /* line 113, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 115, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-offset-3of4 {
     margin-left: 75%; }
 
-  /* line 117, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 119, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-offset-1of8 {
     margin-left: 12.5%; }
 
-  /* line 121, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 123, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-offset-3of8 {
     margin-left: 37.5%; }
 
-  /* line 125, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 127, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-offset-5of8 {
     margin-left: 62.5%; }
 
-  /* line 129, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 131, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .x-large-offset-7of8 {
     margin-left: 87.5%; } }
 /* Create hide / show classes */
 /* for the smallest */
 @media screen and (min-width: 1200px) and (max-width: 9999px) {
-  /* line 158, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 160, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .show-x-large {
     display: block !important; }
 
-  /* line 162, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
+  /* line 164, /Users/alancrissey/proj/hoggle-test/source/assets/css/hoggle/hoggle/_mixins.scss */
   .hide-x-large {
     display: none !important; } }
 /*

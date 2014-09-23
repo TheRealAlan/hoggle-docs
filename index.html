@@ -139,7 +139,7 @@
           
           <p>Vertically center content with <code>.middle</code>.</p>
           
-          <p>Vertically centering works because the columns are set to <code>inline-block</code>. This tends to be problematic because of whitespace that gets created between tags when the page is limited. If you’re using HAML, you can easily eliminate whitespace by placein a <code>&gt;</code> at the end of the <code>.row</code> and column tags. If you&#39;re writing plain html, a workaround is to place the opening and closing tags together, like <code>&lt;/div&gt;&lt;div&gt;</code>.</p>
+          <p>Vertical centering works because the columns are set to <code>inline-block</code>. This tends to be problematic because of whitespace that gets created between tags when the page is rendered. If you’re using HAML, you can easily eliminate whitespace by placeing a <code>&gt;</code> at the end of the <code>.row</code> and column tags. If you’re writing plain html, a workaround is to place the opening and closing tags together, like <code>&lt;/div&gt;&lt;div&gt;</code>.</p>
           
           <p>Content can be aligned to the bottom by using <code>.bottom</code> as well.</p>
         </div></div></section>
@@ -157,7 +157,7 @@
     <section class='container'><div class='row margin-v-6'><div class='col small-1of1 center'>
           <h1>Padding & Margin Helpers</h1>
         </div></div><div class='row margin-v-6'><div class='col medium-1of2 medium-offset-1of4'>
-          <p>Padding and margin can be added with classes that are multiples of <code>$base</code>, which by default are 6px. For example, <code>.pad-3</code> would result in 18px of padding on all four sides. There are separate classes for direction as well. For top and bottom, <code>.pad-v-*</code>, and for left and right, <code>.pad-h-*</code>. Add padding to just one side using <code>.pad-top-*</code>, <code>.pad-right-*</code>, <code>.pad-bottom-*</code>, and <code>.pad-left-*</code>.</p>
+          <p>Padding and margin can be added with classes that are multiples of <code>$base</code> up to 6, which by default are 6px. For example, <code>.pad-3</code> would result in 18px of padding on all four sides. There are separate classes for direction as well. For top and bottom, <code>.pad-v-*</code>, and for left and right, <code>.pad-h-*</code>. Add padding to just one side using <code>.pad-top-*</code>, <code>.pad-right-*</code>, <code>.pad-bottom-*</code>, and <code>.pad-left-*</code>.</p>
         </div></div><div class='row visible-grid margin-bottom-3'><div class='col center medium-1of2 medium-offset-1of4 pad-3'>
           <span class='code'>.pad-3</span>
         </div></div><div class='row visible-grid margin-bottom-3'><div class='col center medium-1of2 medium-offset-1of4 pad-v-3'>
@@ -168,7 +168,7 @@
     <section class='container'><div class='row margin-v-6'><div class='col small-1of1 center'>
           <h1>Responsive Padding & Margin Helpers</h1>
         </div></div><div class='row margin-v-6'><div class='col medium-1of2 medium-offset-1of4'>
-          <p>Often there’s a need for changing margins and paddings for different screen sizes. The margin and padding classes can also be set with screen size prefixes, just like the column widths. For example, <code>.x-small-margin-bottom-3</code> will only add 18px of margin when the columns are stacked on a phone.</p>
+          <p>Often there’s a need for changing margin and padding for different screen sizes. The margin and padding classes can also be set with screen size prefixes, just like the column widths. For example, <code>.x-small-margin-bottom-3</code> will only add 18px of margin when the columns are stacked on a phone.</p>
         </div></div></section>
   </body>
 </html>
