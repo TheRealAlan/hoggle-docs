@@ -1,0 +1,59 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 { font-weight: 600; }
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.code {
+  font-family: "Courier New", Courier, monospace;
+}
+
+code {
+  @extend .code;
+}
+
+/*
+Class: .content
+May or may not actually use this.
+*/
+.content {
+  padding: $gutter 0;
+}
+
+/*
+Class: .visible-grid
+Visual aid for showing the grid and its gutter during development.
+*/
+.visible-grid {
+
+  .col {
+    background-color: #eee;
+    border-left: $gutter solid #ccc;
+    border-right: $gutter solid #ccc;
+    padding-left: 0;
+    padding-right: 0;
+
+    &.pad-3,
+    &.pad-v-3 {
+      padding: 0;
+      border-top: $gutter solid #ccc;
+      border-bottom: $gutter solid #ccc;
+    }
+
+    &.pad-v-3 {
+      border-left: 0;
+      border-right: 0;
+    }
+
+    &.pad-h-3 {
+      padding-top: $gutter;
+      padding-bottom: $gutter;
+    }
+  }
+}

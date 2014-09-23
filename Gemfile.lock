@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/TheRealAlan/hoggle.git
-  revision: 9a95b9cebde50a3656df2d78d8cff0b0c31f4805
+  revision: 0a069a3736d6716b10300132b2fd693bc4e1d9fd
   specs:
     hoggle (0.0.1)
 
@@ -114,8 +114,8 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.1.2)
-    rouge (1.6.2)
-    sass (3.4.4)
+    rouge (1.7.1)
+    sass (3.4.5)
     sprockets (2.12.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
