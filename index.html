@@ -12,7 +12,13 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <section class='container'><div class='row margin-v-6'><div class='col small-1of1 center'>
+    <section class='container'><div class='row margin-top-6'><div class='col small-1of1 center'>
+          <h1>Hoggle</h1>
+          <h2>Another grid? Why?</h2>
+        </div></div><div class='row margin-bottom-3'><div class='col medium-1of2 medium-offset-1of4'>
+          <p>I’ve used a lot of grid systems - Bootstrap, Foundation, Bourbon’s Neat - and all of them are just too much. I wanted a reusable grid that was simple, lightweight, and unobtrusive. I also wanted responsive flexibility that I didn’t get with other grid systems, as well as the ability to easily vertically center elements. Most other grid systems are float based. Hoggle is inline-block based.</p>
+        </div></div></section>
+    <section class='container'><div class='row margin-top-6'><div class='col small-1of1 center'>
           <h1>Columns</h1>
         </div></div><div class='row margin-bottom-3'><div class='col medium-1of2 medium-offset-1of4'>
           <p>Columns are wrapped in a <code>.row</code> class. Rows can be wrapped in a <code>.container</code> class to limit and center the width of the columns to the maximum column width for the screen size.</p>
@@ -45,7 +51,7 @@
           </div></div><div class='col medium-1of8 margin-bottom-3'><div class='content center'>
             <p class='code'>.medium-1of8</p>
           </div></div></div></section>
-    <section class='container'><div class='row margin-v-6'><div class='col small-1of1 center'>
+    <section class='container'><div class='row margin-top-6'><div class='col small-1of1 center'>
           <h1>Different Columns, Different Sizes</h1>
         </div></div><div class='row visible-grid'><div class='col large-1of8 medium-1of4 small-1of2 margin-bottom-3'><div class='content center'>
             <p class='code'>.large-1of8</p>
@@ -80,7 +86,7 @@
             <p class='code'>.medium-1of4</p>
             <p class='code'>.small-1of2</p>
           </div></div></div></section>
-    <section class='container'><div class='row margin-v-6'><div class='col small-1of1 center'>
+    <section class='container'><div class='row margin-top-6'><div class='col small-1of1 center'>
           <h1>Offsets</h1>
         </div></div><div class='row margin-bottom-3 visible-grid'><div class='col small-offset-1of2 small-1of2'>
           <div class='content center'>
@@ -100,12 +106,12 @@
           </div>
         </div></div></section>
     <section class='container'>
-      <div class='row margin-v-6'>
+      <div class='row margin-top-6'>
         <div class='col small-1of1 center'>
           <h1>Hide / Show Utilities</h1>
         </div>
       </div>
-      <div class='row margin-v-6'><div class='col medium-1of2 medium-offset-1of4'>
+      <div class='row margin-bottom-6'><div class='col medium-1of2 medium-offset-1of4'>
           <p>There are classes for each size to hide and show elements that are appropriate. Just remember that they&#39;re still rendered, just visibly hidden. It won’t stop images from loading.</p>
         </div></div><div class='row margin-bottom-3 visible-grid show-x-large'><div class='col middle center'>
           <p class='code'>.show-x-large</p>
@@ -143,7 +149,7 @@
           
           <p>Content can be aligned to the bottom by using <code>.bottom</code> as well.</p>
         </div></div></section>
-    <section class='container'><div class='row margin-v-6'><div class='col small-1of1 center'>
+    <section class='container'><div class='row margin-top-6'><div class='col small-1of1 center'>
           <h1>Swapping Columns</h1>
         </div></div><div class='row margin-v-6 swap'><div class='col middle medium-1of3'>
           <figure>
@@ -154,9 +160,9 @@
           
           <p>Swap column layout with <code class="code">.swap</code>. The order will stack correctly at phone sizes.</p>
         </div></div></section>
-    <section class='container'><div class='row margin-v-6'><div class='col small-1of1 center'>
+    <section class='container'><div class='row margin-top-6'><div class='col small-1of1 center'>
           <h1>Padding & Margin Helpers</h1>
-        </div></div><div class='row margin-v-6'><div class='col medium-1of2 medium-offset-1of4'>
+        </div></div><div class='row margin-bottom-6'><div class='col medium-1of2 medium-offset-1of4'>
           <p>Padding and margin can be added with classes that are multiples of <code>$base</code> up to 6, which by default are 6px. For example, <code>.pad-3</code> would result in 18px of padding on all four sides. There are separate classes for direction as well. For top and bottom, <code>.pad-v-*</code>, and for left and right, <code>.pad-h-*</code>. Add padding to just one side using <code>.pad-top-*</code>, <code>.pad-right-*</code>, <code>.pad-bottom-*</code>, and <code>.pad-left-*</code>.</p>
         </div></div><div class='row visible-grid margin-bottom-3'><div class='col center medium-1of2 medium-offset-1of4 pad-3'>
           <span class='code'>.pad-3</span>
@@ -165,9 +171,9 @@
         </div></div><div class='row visible-grid margin-bottom-3'><div class='col center medium-1of2 medium-offset-1of4 pad-h-3'>
           <span class='code'>.pad-h-3</span>
         </div></div></section>
-    <section class='container'><div class='row margin-v-6'><div class='col small-1of1 center'>
+    <section class='container'><div class='row margin-top-6'><div class='col small-1of1 center'>
           <h1>Responsive Padding & Margin Helpers</h1>
-        </div></div><div class='row margin-v-6'><div class='col medium-1of2 medium-offset-1of4'>
+        </div></div><div class='row margin-bottom-6'><div class='col medium-1of2 medium-offset-1of4'>
           <p>Often there’s a need for changing margin and padding for different screen sizes. The margin and padding classes can also be set with screen size prefixes, just like the column widths. For example, <code>.x-small-margin-bottom-3</code> will only add 18px of margin when the columns are stacked on a phone.</p>
         </div></div></section>
   </body>
