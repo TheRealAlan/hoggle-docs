@@ -9,18 +9,23 @@
     </title>
     <link href="assets/css/app.css" rel="stylesheet" type="text/css" />
     <script src="assets/js/app.js" type="text/javascript"></script>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <section class='container'><div class='row margin-top-6'><div class='col small-1of1 center'>
+    <section class='container'><div class='row margin-top-6 margin-bottom-3'><div class='col medium-1of2 medium-offset-1of4'>
           <h1>Hoggle</h1>
+          
+          <p>An inline-block based grid system. Still very much in its early stages.</p>
+          
+          <p>This is an inline-block based grid system built on Sass. There are no other requirements. Whitespace may be an issue with the inline-block columns. If you’re using HAML, you can clear out the whitespace with a <code>&gt;</code> at the end of tags. Since this is an inline-block grid, it’s easy to vertically align content. Yay!</p>
+        </div></div><div class='row margin-top-6 margin-bottom-3'><div class='col medium-1of2 medium-offset-1of4'>
           <h2>Another grid? Why?</h2>
-        </div></div><div class='row margin-bottom-3'><div class='col medium-1of2 medium-offset-1of4'>
-          <p>I’ve used a lot of grid systems - Bootstrap, Foundation, Bourbon’s Neat - and all of them are just too much. I wanted a reusable grid that was simple, lightweight, and unobtrusive. I also wanted responsive flexibility that I didn’t get with other grid systems, as well as the ability to easily vertically center elements. Most other grid systems are float based. Hoggle is inline-block based.</p>
+          
+          <p>I’ve used a lot of grid systems - Bootstrap, Foundation, Bourbon’s Neat - and all of them are great, but also too much. I wanted a reusable grid that was simple, lightweight, unobtrusive, and just a grid. I wanted responsive flexibility that I didn’t get with other grid systems, as well as the ability to easily vertically center elements. Most other grid systems are float based. Hoggle is inline-block based.</p>
         </div></div></section>
-    <section class='container'><div class='row margin-top-6'><div class='col small-1of1 center'>
+    <section class='container'><div class='row margin-top-6 margin-bottom-3'><div class='col medium-1of2 medium-offset-1of4'>
           <h1>Columns</h1>
-        </div></div><div class='row margin-bottom-3'><div class='col medium-1of2 medium-offset-1of4'>
+          
           <p>Columns are wrapped in a <code>.row</code> class. Rows can be wrapped in a <code>.container</code> class to limit and center the width of the columns to the maximum column width for the screen size.</p>
           
           <p>Columns are defined with the class <code>.col</code> and any combination of classes determining the width at different screen sizes. By default, these are <code>.x-small-*</code>, <code>.small-*</code>, <code>.medium-*</code>, <code>.large-*</code>, and <code>.x-large-*</code>. This means the column will fill the column space from the specified screen size up. Different column sizes can be set for different screen sizes.</p>
@@ -141,7 +146,7 @@
             <img src="assets/img/hoggle.jpg" />
           </figure>
         </div><div class='col middle medium-2of3'>
-          <h2>Vertically Centered Content</h2>
+          <h3>Vertically Centered Content</h3>
           
           <p>Vertically center content with <code>.middle</code>.</p>
           
@@ -156,7 +161,7 @@
             <img src="assets/img/hoggle.jpg" />
           </figure>
         </div><div class='col middle medium-2of3'>
-          <h2>Swapped Columns</h2>
+          <h3>Swapped Columns</h3>
           
           <p>Swap column layout with <code class="code">.swap</code>. The order will stack correctly at phone sizes.</p>
         </div></div></section>
@@ -170,6 +175,14 @@
           <span class='code'>.pad-v-3</span>
         </div></div><div class='row visible-grid margin-bottom-3'><div class='col center medium-1of2 medium-offset-1of4 pad-h-3'>
           <span class='code'>.pad-h-3</span>
+        </div></div><div class='row visible-grid margin-bottom-3'><div class='col center medium-1of2 medium-offset-1of4 pad-top-3'>
+          <span class='code'>.pad-top-3</span>
+        </div></div><div class='row visible-grid margin-bottom-3'><div class='col center medium-1of2 medium-offset-1of4 pad-right-3'>
+          <span class='code'>.pad-right-3</span>
+        </div></div><div class='row visible-grid margin-bottom-3'><div class='col center medium-1of2 medium-offset-1of4 pad-bottom-3'>
+          <span class='code'>.pad-bottom-3</span>
+        </div></div><div class='row visible-grid margin-bottom-3'><div class='col center medium-1of2 medium-offset-1of4 pad-left-3'>
+          <span class='code'>.pad-left-3</span>
         </div></div></section>
     <section class='container'><div class='row margin-top-6'><div class='col small-1of1 center'>
           <h1>Responsive Padding & Margin Helpers</h1>

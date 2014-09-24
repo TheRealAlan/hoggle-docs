@@ -3416,19 +3416,24 @@ Creates margin classes in multiples of $base up to 6.
 /* Demo */
 /* line 1, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Source Sans Pro', sans-serif; }
 
 /* line 5, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600; }
 
-/* line 7, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
+/* line 9, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
+h1,
+h2 {
+  text-align: center; }
+
+/* line 14, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
 img {
   display: block;
   width: 100%;
   height: auto; }
 
-/* line 13, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
+/* line 20, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
 .code, code {
   font-family: "Courier New", Courier, monospace; }
 
@@ -3436,7 +3441,7 @@ img {
 Class: .content
 May or may not actually use this.
 */
-/* line 25, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
+/* line 32, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
 .content {
   padding: 12px 0; }
 
@@ -3444,23 +3449,57 @@ May or may not actually use this.
 Class: .visible-grid
 Visual aid for showing the grid and its gutter during development.
 */
-/* line 35, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
+/* line 42, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
 .visible-grid .col {
   background-color: #eee;
   border-left: 12px solid #ccc;
   border-right: 12px solid #ccc;
   padding-left: 0;
   padding-right: 0; }
-  /* line 42, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
+  /* line 49, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
+  .visible-grid .col.pad-3, .visible-grid .col.pad-h-3 {
+    border-left: 18px solid #ccc;
+    border-right: 18px solid #ccc; }
+  /* line 55, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
   .visible-grid .col.pad-3, .visible-grid .col.pad-v-3 {
     padding: 0;
-    border-top: 12px solid #ccc;
-    border-bottom: 12px solid #ccc; }
-  /* line 49, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
+    border-top: 18px solid #ccc;
+    border-bottom: 18px solid #ccc; }
+  /* line 62, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
   .visible-grid .col.pad-v-3 {
     border-left: 0;
     border-right: 0; }
-  /* line 54, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
+  /* line 67, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
   .visible-grid .col.pad-h-3 {
-    padding-top: 12px;
-    padding-bottom: 12px; }
+    padding-top: 18px;
+    padding-bottom: 18px; }
+  /* line 72, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
+  .visible-grid .col.pad-top-3 {
+    padding-top: 0;
+    padding-bottom: 18px;
+    border-top: 18px solid #ccc;
+    border-right: none;
+    border-left: none; }
+  /* line 80, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
+  .visible-grid .col.pad-right-3 {
+    padding-right: 0;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+    border-left: 0;
+    border-right: 18px solid #ccc; }
+  /* line 89, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
+  .visible-grid .col.pad-bottom-3 {
+    padding-top: 18px;
+    padding-bottom: 0;
+    border-bottom: 18px solid #ccc;
+    border-right: none;
+    border-left: none; }
+  /* line 97, /Users/alancrissey/proj/hoggle-test/source/assets/css/_modules/_demo.css.scss */
+  .visible-grid .col.pad-left-3 {
+    padding-left: 0;
+    padding-top: 18px;
+    padding-right: 18px;
+    padding-bottom: 18px;
+    border-left: 18px solid #ccc;
+    border-right: none; }
