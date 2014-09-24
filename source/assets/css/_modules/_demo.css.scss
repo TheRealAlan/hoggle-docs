@@ -1,8 +1,15 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 { font-weight: 600; }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
 
 img {
   display: block;
@@ -40,10 +47,16 @@ Visual aid for showing the grid and its gutter during development.
     padding-right: 0;
 
     &.pad-3,
+    &.pad-h-3 {
+      border-left: $base * 3 solid #ccc;
+      border-right: $base * 3 solid #ccc;
+    }
+
+    &.pad-3,
     &.pad-v-3 {
       padding: 0;
-      border-top: $gutter solid #ccc;
-      border-bottom: $gutter solid #ccc;
+      border-top: $base * 3 solid #ccc;
+      border-bottom: $base * 3 solid #ccc;
     }
 
     &.pad-v-3 {
@@ -52,8 +65,42 @@ Visual aid for showing the grid and its gutter during development.
     }
 
     &.pad-h-3 {
-      padding-top: $gutter;
-      padding-bottom: $gutter;
+      padding-top: $base * 3;
+      padding-bottom: $base * 3;
+    }
+
+    &.pad-top-3 {
+      padding-top: 0;
+      padding-bottom: $base * 3;
+      border-top: $base * 3 solid #ccc;
+      border-right: none;
+      border-left: none;
+    }
+
+    &.pad-right-3 {
+      padding-right: 0;
+      padding-top: $base * 3;
+      padding-bottom: $base * 3;
+      padding-left: $base * 3;
+      border-left: 0;
+      border-right: $base * 3 solid #ccc;
+    }
+
+    &.pad-bottom-3 {
+      padding-top: $base * 3;
+      padding-bottom: 0;
+      border-bottom: $base * 3 solid #ccc;
+      border-right: none;
+      border-left: none;
+    }
+
+    &.pad-left-3 {
+      padding-left: 0;
+      padding-top: $base * 3;
+      padding-right: $base * 3;
+      padding-bottom: $base * 3;
+      border-left: $base * 3 solid #ccc;
+      border-right: none;
     }
   }
 }

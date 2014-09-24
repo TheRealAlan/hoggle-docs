@@ -4,28 +4,34 @@ title: Hoggle Demo
 
 %section.container
 
-  .row.margin-top-6>
-    .col.small-1of1.center>
-      %h1 Hoggle
-      %h2 Another grid? Why?
-
-  .row.margin-bottom-3>
+  .row.margin-top-6.margin-bottom-3>
     .col.medium-1of2.medium-offset-1of4>
 
       :markdown
 
-        I’ve used a lot of grid systems - Bootstrap, Foundation, Bourbon’s Neat - and all of them are just too much. I wanted a reusable grid that was simple, lightweight, and unobtrusive. I also wanted responsive flexibility that I didn’t get with other grid systems, as well as the ability to easily vertically center elements. Most other grid systems are float based. Hoggle is inline-block based.
+        # Hoggle
+
+        An inline-block based grid system. Still very much in its early stages.
+
+        This is an inline-block based grid system built on Sass. There are no other requirements. Whitespace may be an issue with the inline-block columns. If you’re using HAML, you can clear out the whitespace with a `>` at the end of tags. Since this is an inline-block grid, it’s easy to vertically align content. Yay!
+
+  .row.margin-top-6.margin-bottom-3>
+    .col.medium-1of2.medium-offset-1of4>
+
+      :markdown
+
+        ## Another grid? Why?
+
+        I’ve used a lot of grid systems - Bootstrap, Foundation, Bourbon’s Neat - and all of them are great, but also too much. I wanted a reusable grid that was simple, lightweight, unobtrusive, and just a grid. I wanted responsive flexibility that I didn’t get with other grid systems, as well as the ability to easily vertically center elements. Most other grid systems are float based. Hoggle is inline-block based.
 
 %section.container
 
-  .row.margin-top-6>
-    .col.small-1of1.center>
-      %h1 Columns
-
-  .row.margin-bottom-3>
+  .row.margin-top-6.margin-bottom-3>
     .col.medium-1of2.medium-offset-1of4>
 
       :markdown
+
+        # Columns
 
         Columns are wrapped in a `.row` class. Rows can be wrapped in a `.container` class to limit and center the width of the columns to the maximum column width for the screen size.
 
@@ -231,7 +237,7 @@ title: Hoggle Demo
     .col.middle.medium-2of3>
       :markdown
 
-        ## Vertically Centered Content
+        ### Vertically Centered Content
 
         Vertically center content with `.middle`.
 
@@ -251,7 +257,7 @@ title: Hoggle Demo
 
     .col.middle.medium-2of3>
       :markdown
-        ## Swapped Columns
+        ### Swapped Columns
 
         Swap column layout with <code class="code">.swap</code>. The order will stack correctly at phone sizes.
 
@@ -277,6 +283,22 @@ title: Hoggle Demo
   .row.visible-grid.margin-bottom-3>
     .col.center.medium-1of2.medium-offset-1of4.pad-h-3>
       %span.code .pad-h-3
+
+  .row.visible-grid.margin-bottom-3>
+    .col.center.medium-1of2.medium-offset-1of4.pad-top-3>
+      %span.code .pad-top-3
+
+  .row.visible-grid.margin-bottom-3>
+    .col.center.medium-1of2.medium-offset-1of4.pad-right-3>
+      %span.code .pad-right-3
+
+  .row.visible-grid.margin-bottom-3>
+    .col.center.medium-1of2.medium-offset-1of4.pad-bottom-3>
+      %span.code .pad-bottom-3
+
+  .row.visible-grid.margin-bottom-3>
+    .col.center.medium-1of2.medium-offset-1of4.pad-left-3>
+      %span.code .pad-left-3
 
 %section.container
   .row.margin-top-6>
