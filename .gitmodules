@@ -1,0 +1,3 @@
+[submodule "hoggle"]
+	path = hoggle
+	url = git@github.com:TheRealAlan/hoggle.git

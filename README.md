@@ -9,19 +9,24 @@ View the [demo](http://therealalan.github.io/hoggle-test/).
 Requires Ruby 2.1.2 and Middleman 3.3.5.
 
 ```
-git clone git@github.com:TheRealAlan/hoggle-test.git
+$ git clone git@github.com:TheRealAlan/hoggle-test.git
+```
+
+Init submodules
+```
+$ git submodule init
 ```
 
 Then install the dependencies:
 
 ```
-bundle install
+$ bundle install
 ```
 
 Start Middleman:
 
 ```
-middleman server
+$ middleman server
 ```
 
 Preview it at:
