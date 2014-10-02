@@ -11,7 +11,7 @@ gem "middleman-gh-pages"
 gem "redcarpet"
 
 # Get Hoggle
-gem "hoggle", :github => "./hoggle"
+gem "hoggle", path: "./hoggle"
 
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
