@@ -9,6 +9,8 @@ gem "middleman-syntax"
 gem "middleman-autoprefixer"
 gem "middleman-gh-pages"
 gem "redcarpet"
+gem "slugity"
+gem "pry-byebug"
 
 # Get Hoggle
 gem "hoggle", path: "./hoggle"

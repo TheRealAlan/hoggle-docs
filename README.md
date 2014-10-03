@@ -1,15 +1,15 @@
-# Hoggle Test
+# Hoggle Docs
 
-Testbed for Hoggle grid framework, using MiddleMan.
+Documentation for the Hoggle grid framework, using MiddleMan.
 
-View the [demo](http://therealalan.github.io/hoggle-test/).
+[View the documentation](http://therealalan.github.io/hoggle-docs/).
 
 ## Installation
 
-Requires Ruby 2.1.2 and Middleman 3.3.5.
+Requires Ruby 2.1.2.
 
 ```
-$ git clone git@github.com:TheRealAlan/hoggle-test.git
+$ git clone git@github.com:TheRealAlan/hoggle-docs.git
 ```
 
 Init submodules

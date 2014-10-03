@@ -1,0 +1,21 @@
+---
+title: Columns
+---
+
+Columns are wrapped in a `.row` class. Rows can be wrapped in a `.container` class to limit and center the width of the columns to the maximum column width for the screen size.
+
+Columns are defined with the class `.col` and any combination of classes determining the width at different screen sizes. By default, these are `.x-small-*`, `.small-*`, `.medium-*`, `.large-*`, and `.x-large-*`. This means the column will fill the column space from the specified screen size up. Different column sizes can be set for different screen sizes.
+
+The default breakpoints are set as follows:
+
+``` scss
+$x_small: 0px;
+$small: 480px;
+$medium: 768px;
+$large: 992px;
+$x_large: 1200px;
+```
+
+The `.col` width is determined by the suffix of the class names. The default available sizes are halves, thirds, quarters, and eighths.
+
+<%= partial 'partials/examples/_columns.haml' %>

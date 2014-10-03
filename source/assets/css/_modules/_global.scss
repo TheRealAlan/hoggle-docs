@@ -1,0 +1,62 @@
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  font-size: $base * 2;
+  line-height: 1.4em;
+  color: $k4;
+  -webkit-font-smoothing: antialiased;
+
+  @include greater_than( $small ) {
+    font-size: $base * 3;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  margin: 0;
+}
+
+h1,
+h2 {
+  // text-align: center;
+}
+
+p {
+  margin: 1.4em 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+pre {
+  background-color: $k1;
+  padding: $gutter;
+  border-radius: 4px;
+}
+
+.code {
+  font-family: "Courier New", Courier, monospace;
+  color: #000;
+  background-color: $k1;
+}
+
+code {
+  @extend .code;
+  border-radius: 4px;
+}
+
+.title {
+  margin: $base*6 0 $base*3;
+  font-weight: 700;
+}
+
+h2 {
+  margin: $base*6 0 0;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: $base * 4;
+}

@@ -1,0 +1,15 @@
+.row.group.margin-v-6>
+  .col.middle.medium-1of3>
+    %figure.x-small-margin-bottom-4
+      = image_tag 'hoggle.jpg'
+
+  .col.middle.medium-2of3>
+    :markdown
+
+      ### Vertically Centered Content
+
+      Vertically center content with `.middle`.
+
+      Vertical centering works because the columns are set to `inline-block`. This tends to be problematic because of whitespace that gets created between tags when the page is rendered. If you’re using HAML, you can easily eliminate whitespace by placeing a `>` at the end of the `.row` and column tags. If you’re writing plain html, a workaround is to place the opening and closing tags together, like `</div><div>`.
+
+      Content can be aligned to the bottom by using `.bottom` as well.

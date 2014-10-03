@@ -1,0 +1,71 @@
+/*
+Class: .visible-grid
+Visual aid for showing the grid and its gutter during development.
+*/
+.visible-grid {
+
+  .col {
+    background-color: $k1;
+    border-left: $gutter solid $k2;
+    border-right: $gutter solid $k2;
+    padding-left: 0;
+    padding-right: 0;
+
+    &.pad-3,
+    &.pad-h-3 {
+      border-left: $base * 3 solid $k2;
+      border-right: $base * 3 solid $k2;
+    }
+
+    &.pad-3,
+    &.pad-v-3 {
+      padding: 0;
+      border-top: $base * 3 solid $k2;
+      border-bottom: $base * 3 solid $k2;
+    }
+
+    &.pad-v-3 {
+      border-left: 0;
+      border-right: 0;
+    }
+
+    &.pad-h-3 {
+      padding-top: $base * 3;
+      padding-bottom: $base * 3;
+    }
+
+    &.pad-top-3 {
+      padding-top: 0;
+      padding-bottom: $base * 3;
+      border-top: $base * 3 solid $k2;
+      border-right: none;
+      border-left: none;
+    }
+
+    &.pad-right-3 {
+      padding-right: 0;
+      padding-top: $base * 3;
+      padding-bottom: $base * 3;
+      padding-left: $base * 3;
+      border-left: 0;
+      border-right: $base * 3 solid $k2;
+    }
+
+    &.pad-bottom-3 {
+      padding-top: $base * 3;
+      padding-bottom: 0;
+      border-bottom: $base * 3 solid $k2;
+      border-right: none;
+      border-left: none;
+    }
+
+    &.pad-left-3 {
+      padding-left: 0;
+      padding-top: $base * 3;
+      padding-right: $base * 3;
+      padding-bottom: $base * 3;
+      border-left: $base * 3 solid $k2;
+      border-right: none;
+    }
+  }
+}
