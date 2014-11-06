@@ -7,6 +7,7 @@
   z-index: 10;
   background-color: transparent;
   transition: all .25s ease;
+  backface-visibility: hidden;
 
   ul {
     margin: 0;
@@ -60,7 +61,8 @@
   padding: $base;
   color: $k3;
 
-  &:hover {
+  &:hover,
+  &:active {
     color: $blue;
   }
 }
