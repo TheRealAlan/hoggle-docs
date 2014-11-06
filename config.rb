@@ -8,6 +8,7 @@ Dir["./lib/*"].each { |f| require(f) }
 set :css_dir, 'assets/css'
 set :js_dir, 'assets/js'
 set :images_dir, 'assets/img'
+set :fonts_dir,  "assets/fonts"
 
 # Bower Components
 sprockets.append_path File.join root, 'bower_components'

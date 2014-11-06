@@ -5,6 +5,10 @@ body {
   color: $k4;
   -webkit-font-smoothing: antialiased;
 
+  &.menu-open {
+    overflow: hidden;
+  }
+
   @include greater_than( $small ) {
     font-size: $base * 3;
   }
@@ -15,9 +19,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-h1,
-h2 {
-  // text-align: center;
+a {
+  color: $blue;
+  text-decoration: none;
 }
 
 p {
@@ -50,6 +54,10 @@ code {
 .title {
   margin: $base*6 0 $base*3;
   font-weight: 700;
+
+  @include less_than( $medium ) {
+    line-height: 1.2em;
+  }
 }
 
 h2 {
@@ -59,4 +67,11 @@ h2 {
 h3 {
   font-weight: bold;
   font-size: $base * 4;
+}
+
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
 }

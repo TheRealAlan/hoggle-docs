@@ -6,10 +6,21 @@ title: Hoggle Demo
 
   .row>
     .col.top.large-1of4.medium-1of1>
-      %ul.main-nav
-        - docs_as_hash.each do |doc|
-          = partial "partials/doc-menu", locals: { doc: doc }
+      %header.header
+        %button.nav-mobile-btn.fa.fa-bars
+      .main-nav
+        %button.nav-mobile-btn.fa.fa-times
+        %ul
+          - docs_as_hash.each do |doc|
+            = partial "partials/doc-menu", locals: { doc: doc }
 
     .col.large-3of4.medium-1of1>
       - docs_as_hash.each do |doc|
         = partial "partials/doc", locals: { doc: doc }
+
+%footer.footer.container.pad-v-6
+  %p
+    Created by #{ link_to "Alan Crissey", "http://alancrissey.com", target: "_blank" }
+
+  %p
+    View on #{ link_to "GitHub", "https://github.com/TheRealAlan/hoggle", target: "_blank" }
