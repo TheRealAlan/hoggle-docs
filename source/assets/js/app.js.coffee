@@ -6,3 +6,6 @@
 //= require '_modules/_nav-highlight.js.coffee'
 
 $ ->
+
+  # Init Fastclick
+  FastClick.attach(document.body)
