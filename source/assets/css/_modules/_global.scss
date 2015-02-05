@@ -9,7 +9,7 @@ body {
     overflow: hidden;
   }
 
-  @include greater_than( $small ) {
+  @include media('>phone') {
     font-size: $base * 3;
   }
 }
@@ -59,7 +59,7 @@ code {
   margin: $base*6 0 $base*3;
   font-weight: 700;
 
-  @include less_than( $medium ) {
+  @include media('<tablet') {
     line-height: 1.2em;
   }
 }
@@ -72,7 +72,7 @@ h3 {
   font-weight: bold;
   font-size: $base * 4;
 
-  @include less_than( $medium ) {
+  @include media('<tablet') {
     line-height: 1.4em;
   }
 }

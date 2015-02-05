@@ -1,8 +1,5 @@
 $LOAD_PATH << File.join( Dir.pwd, '/lib' )
 
-require 'slugity/extend_string'
-require 'pry'
-
 Dir["./lib/*"].each { |f| require(f) }
 
 set :css_dir, 'assets/css'

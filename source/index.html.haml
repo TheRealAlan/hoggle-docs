@@ -5,7 +5,7 @@ title: Hoggle Demo
 %section.container
 
   .row>
-    .col.top.large-1of4.medium-1of1>
+    .col.top.desktop-1of4.tablet-1of1>
       %header.header
         %button.nav-mobile-btn.fa.fa-bars
       .main-nav
@@ -14,13 +14,13 @@ title: Hoggle Demo
           - docs_as_hash.each do |doc|
             = partial "partials/doc-menu", locals: { doc: doc }
 
-    .col.large-3of4.medium-1of1>
+    .col.desktop-3of4.tablet-1of1>
       - docs_as_hash.each do |doc|
         = partial "partials/doc", locals: { doc: doc }
 
 %footer.footer.container.pad-v-6
   .row
-    .col.small-1of1>
+    .col.phone-1of1>
       %p
         Created by #{ link_to "Alan Crissey", "http://alancrissey.com", target: "_blank" }
 
