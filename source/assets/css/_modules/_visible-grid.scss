@@ -1,5 +1,4 @@
 /*
-Class: .visible-grid
 Visual aid for showing the grid and its gutter during development.
 */
 .visible-grid {
@@ -11,30 +10,30 @@ Visual aid for showing the grid and its gutter during development.
     padding-left: 0;
     padding-right: 0;
 
-    &.pad-3,
-    &.pad-h-3 {
+    &.-p-3,
+    &.-ph-3 {
       border-left: $base * 3 solid $k2;
       border-right: $base * 3 solid $k2;
     }
 
-    &.pad-3,
-    &.pad-v-3 {
+    &.-p-3,
+    &.-pv-3 {
       padding: 0;
       border-top: $base * 3 solid $k2;
       border-bottom: $base * 3 solid $k2;
     }
 
-    &.pad-v-3 {
+    &.-pv-3 {
       border-left: 0;
       border-right: 0;
     }
 
-    &.pad-h-3 {
+    &.-ph-3 {
       padding-top: $base * 3;
       padding-bottom: $base * 3;
     }
 
-    &.pad-top-3 {
+    &.-pt-3 {
       padding-top: 0;
       padding-bottom: $base * 3;
       border-top: $base * 3 solid $k2;
@@ -42,7 +41,7 @@ Visual aid for showing the grid and its gutter during development.
       border-left: none;
     }
 
-    &.pad-right-3 {
+    &.-pr-3 {
       padding-right: 0;
       padding-top: $base * 3;
       padding-bottom: $base * 3;
@@ -51,7 +50,7 @@ Visual aid for showing the grid and its gutter during development.
       border-right: $base * 3 solid $k2;
     }
 
-    &.pad-bottom-3 {
+    &.-pb-3 {
       padding-top: $base * 3;
       padding-bottom: 0;
       border-bottom: $base * 3 solid $k2;
@@ -59,7 +58,7 @@ Visual aid for showing the grid and its gutter during development.
       border-left: none;
     }
 
-    &.pad-left-3 {
+    &.-pl-3 {
       padding-left: 0;
       padding-top: $base * 3;
       padding-right: $base * 3;
