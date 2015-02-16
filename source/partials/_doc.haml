@@ -1,4 +1,4 @@
-%section{ id: "#{doc[:title].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}", class: "section margin-bottom-6" }
+%section{ "id" => "#{doc[:title].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}", "class" => "section -mb-6" }
   %h1.title
     = doc[:title]
   = doc[:content]

@@ -12,7 +12,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
-    autoprefixer-rails (5.1.3)
+    autoprefixer-rails (5.1.5)
       execjs
       json
     celluloid (0.16.0)
@@ -38,7 +38,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
-    eventmachine (1.0.6)
+    eventmachine (1.0.7)
     execjs (2.3.0)
     ffi (1.9.6)
     font-awesome-middleman (4.2.3)
@@ -68,8 +68,8 @@ GEM
       middleman-sprockets (>= 3.1.2)
       sass (>= 3.4.0, < 4.0)
       uglifier (~> 2.5)
-    middleman-autoprefixer (2.4.2)
-      autoprefixer-rails (~> 5.1.0)
+    middleman-autoprefixer (2.4.3)
+      autoprefixer-rails (~> 5.1.3)
       middleman-core (>= 3.3.3)
     middleman-core (3.3.7)
       activesupport (~> 4.1.0)

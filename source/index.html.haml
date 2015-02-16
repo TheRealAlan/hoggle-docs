@@ -3,9 +3,8 @@ title: Hoggle Demo
 ---
 
 %section.container
-
   .row>
-    .col.top.desktop-1of4.tablet-1of1>
+    %div{ "class" => "col -desktop-1of4 -tablet-1of1" }>
       %header.header
         %button.nav-mobile-btn.fa.fa-bars
       .main-nav
@@ -14,11 +13,11 @@ title: Hoggle Demo
           - docs_as_hash.each do |doc|
             = partial "partials/doc-menu", locals: { doc: doc }
 
-    .col.desktop-3of4.tablet-1of1>
+    %div{ "class" => "col -desktop-3of4 -tablet-1of1" }>
       - docs_as_hash.each do |doc|
         = partial "partials/doc", locals: { doc: doc }
 
-%footer.footer.container.pad-v-6
+%footer{ "class" => "footer -container -pv-6 -c" }
   .row
     .col.phone-1of1>
       %p
